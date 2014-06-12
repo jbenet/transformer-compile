@@ -7,7 +7,7 @@ Compile [transformer](https://github.com/jbenet/transformer) conversion pipeline
 Simple example:
 
 ```
-cat simple-example.js
+> cat simple-example.js
 ```
 ```js
 var compile = require('transformer-compile')
@@ -18,7 +18,7 @@ console.log(code)
 ```
 
 ```
-node simple-example.js
+> node simple-example.js
 ```
 ```js
 var compose = require('transformer-compose')
@@ -33,7 +33,7 @@ module.exports = compose.sync(conversions)
 Resolve conversions from types example:
 
 ```
-cat resolve-example.js
+> cat resolve-example.js
 ```
 ```js
 var compile = require('transformer-compile')
@@ -45,7 +45,7 @@ var code = compile(convs)
 console.log(code)
 ```
 ```
-node resolve-example.js
+> node resolve-example.js
 ```
 ```js
 var compose = require('transformer-compose')
@@ -55,4 +55,10 @@ var conversions = [
 ]
 
 module.exports = compose.sync(conversions)
+```
+
+Note: you will need to install these modules to run these examples:
+
+```
+> npm install -g transformer-resolve transformer-compose transformer.unix-time transformer.js-date transformer.iso-date transformer.unix-time-to-js-date transformer.js-date-to-iso-date
 ```
