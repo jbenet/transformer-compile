@@ -1,6 +1,6 @@
 {
   "name": "transformer-compile",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "transformer compile modules",
   "main": "index.js",
   "scripts": {

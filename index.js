@@ -7,8 +7,8 @@ var tmpl = template(file)
 
 module.exports = Compile
 
-function Compile(conversions) {
-  var async = false
+function Compile(conversions, forceAsync) {
+  var async = !!forceAsync
   map(conversions, function(c) {
     async = async || c.async
   })
