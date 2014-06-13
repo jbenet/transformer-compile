@@ -1,6 +1,6 @@
 {
   "name": "transformer-compile",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "transformer compile modules",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "transformer-compose": "^0.1.0",
-    "transformer-resolve": "^0.1.2",
+    "transformer-resolve": "^0.1.4",
     "transformer.iso-date": "0.0.3",
     "transformer.js-date": "0.0.3",
     "transformer.js-date-to-iso-date": "0.0.2",
@@ -19,8 +19,7 @@
   },
   "dependencies": {
     "lodash.map": "^2.4.1",
-    "lodash.template": "^2.4.1",
-    "transformer-resolve": "^0.1.4"
+    "lodash.template": "^2.4.1"
   },
   "repository": {
     "type": "git",
