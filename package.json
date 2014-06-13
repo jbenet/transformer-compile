@@ -1,6 +1,6 @@
 {
   "name": "transformer-compile",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "transformer compile modules",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "dependencies": {
     "lodash.map": "^2.4.1",
     "lodash.template": "^2.4.1",
-    "transformer-resolve": "^0.1.3"
+    "transformer-resolve": "^0.1.4"
   },
   "repository": {
     "type": "git",
